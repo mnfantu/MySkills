@@ -1,0 +1,16 @@
+{
+  "name": "MySkills",
+  "owner": {
+    "name": "k"
+  },
+  "plugins": [
+    {
+      "name": "mattpocock-skills",
+      "source": {
+        "source": "github",
+        "repo": "mattpocock/skills"
+      },
+      "description": "Matt Pocock's engineering & productivity skills (grill-me, grill-with-docs, tdd, code-review, triage, diagnosing-bugs, to-prd, etc.)"
+    }
+  ]
+}
