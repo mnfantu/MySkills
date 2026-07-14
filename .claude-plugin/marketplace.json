@@ -3,14 +3,20 @@
   "owner": {
     "name": "k"
   },
+  "description": "Matt Pocock's skills for real engineering (mirrored), as an installable Claude Code plugin.",
   "plugins": [
     {
       "name": "mattpocock-skills",
-      "source": {
-        "source": "github",
-        "repo": "mattpocock/skills"
-      },
-      "description": "Matt Pocock's engineering & productivity skills (grill-me, grill-with-docs, tdd, code-review, triage, diagnosing-bugs, to-prd, etc.)"
+      "source": "./",
+      "description": "Matt Pocock's agent skills for real engineering — grilling, spec/ticket flows, TDD, code review, domain modelling and more.",
+      "category": "engineering",
+      "keywords": [
+        "engineering",
+        "skills",
+        "tdd",
+        "code-review",
+        "grilling"
+      ]
     }
   ]
 }
